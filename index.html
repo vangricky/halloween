@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween WDDS</title>
+    <link rel="stylesheet" href="larger.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <div data-aos="zoom-in">
+                <h1 class="header-title">Happy</h1>
+            </div>
+            <div data-aos="zoom-in">
+                <h1 class="header-title">Halloween!</h1>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <img class="pumpkin-img" id="pumpkinImg" src="./images/pumpkin.png" alt="Pumpkin Image">
+            </div>
+            <audio id="boo-sound" src="/audio/boo.mp3" preload="auto"></audio>
+        </div>
+        <div class="message" id="messageText">BOO!</div>
+    </header>
+
+    <main>
+        <div class="candy-section">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="header-title">Trick or Treat?</h1>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <img class="candybucket-img" id="candyBucket" src="./images/candybucket.png" alt="">
+            </div>
+            <div id="candyContainer" class="candy-container"></div>
+        </div>
+    </main>
+    
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
